@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD19004321953A63007244CE /* CMCopyDeepController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD19004221953A63007244CE /* CMCopyDeepController.m */; };
+		BD7F627C215B56D30025B32A /* CGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7F627B215B56D30025B32A /* CGCDController.m */; };
 		BD7FDEC9212BF92E00E38E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FDEC8212BF92E00E38E32 /* AppDelegate.m */; };
 		BD7FDECC212BF92E00E38E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FDECB212BF92E00E38E32 /* ViewController.m */; };
 		BD7FDECF212BF92E00E38E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7FDECD212BF92E00E38E32 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 		BD7FDEFB212BFB8100E38E32 /* CUISetNeedsLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FDEFA212BFB8100E38E32 /* CUISetNeedsLayoutViewController.m */; };
 		BD7FDEFE212BFB9E00E38E32 /* SMRBaseDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FDEFD212BFB9E00E38E32 /* SMRBaseDemoController.m */; };
 		BDB5423C2149319F00D8AB26 /* CRTMessageSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB5423B2149319F00D8AB26 /* CRTMessageSendController.m */; };
+		BDCFD059215257DF006259B2 /* CCRBlockCircularReferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD058215257DF006259B2 /* CCRBlockCircularReferenceController.m */; };
+		BDCFD05C21525A12006259B2 /* CCRBlockCircularReferenceController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD05B21525A12006259B2 /* CCRBlockCircularReferenceController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD19004121953A63007244CE /* CMCopyDeepController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMCopyDeepController.h; sourceTree = "<group>"; };
+		BD19004221953A63007244CE /* CMCopyDeepController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMCopyDeepController.m; sourceTree = "<group>"; };
+		BD7F627A215B56D30025B32A /* CGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGCDController.h; sourceTree = "<group>"; };
+		BD7F627B215B56D30025B32A /* CGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGCDController.m; sourceTree = "<group>"; };
 		BD7FDEC4212BF92E00E38E32 /* OCBasicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCBasicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7FDEC7212BF92E00E38E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD7FDEC8212BF92E00E38E32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +60,10 @@
 		BD7FDEFD212BFB9E00E38E32 /* SMRBaseDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRBaseDemoController.m; sourceTree = "<group>"; };
 		BDB5423A2149319F00D8AB26 /* CRTMessageSendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTMessageSendController.h; sourceTree = "<group>"; };
 		BDB5423B2149319F00D8AB26 /* CRTMessageSendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTMessageSendController.m; sourceTree = "<group>"; };
+		BDCFD057215257DF006259B2 /* CCRBlockCircularReferenceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRBlockCircularReferenceController.h; sourceTree = "<group>"; };
+		BDCFD058215257DF006259B2 /* CCRBlockCircularReferenceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRBlockCircularReferenceController.m; sourceTree = "<group>"; };
+		BDCFD05A21525A12006259B2 /* CCRBlockCircularReferenceController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRBlockCircularReferenceController2.h; sourceTree = "<group>"; };
+		BDCFD05B21525A12006259B2 /* CCRBlockCircularReferenceController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRBlockCircularReferenceController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD19003F21953A20007244CE /* CateMemery */ = {
+			isa = PBXGroup;
+			children = (
+				BD19004021953A3B007244CE /* Demo-copy_deepcopy */,
+			);
+			path = CateMemery;
+			sourceTree = "<group>";
+		};
+		BD19004021953A3B007244CE /* Demo-copy_deepcopy */ = {
+			isa = PBXGroup;
+			children = (
+				BD19004121953A63007244CE /* CMCopyDeepController.h */,
+				BD19004221953A63007244CE /* CMCopyDeepController.m */,
+			);
+			path = "Demo-copy_deepcopy";
+			sourceTree = "<group>";
+		};
+		BD7F6279215B56B70025B32A /* Demo-GCDProgress */ = {
+			isa = PBXGroup;
+			children = (
+				BD7F627A215B56D30025B32A /* CGCDController.h */,
+				BD7F627B215B56D30025B32A /* CGCDController.m */,
+			);
+			path = "Demo-GCDProgress";
+			sourceTree = "<group>";
+		};
 		BD7FDEBB212BF92E00E38E32 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +138,8 @@
 				BD7FDECB212BF92E00E38E32 /* ViewController.m */,
 				BD7FDEFC212BFB9E00E38E32 /* SMRBaseDemoController.h */,
 				BD7FDEFD212BFB9E00E38E32 /* SMRBaseDemoController.m */,
+				BD19003F21953A20007244CE /* CateMemery */,
+				BDCFD0552152555B006259B2 /* CateRetainCycle */,
 				BD7FDEEB212BF98B00E38E32 /* CateGCD */,
 				BD7FDEEE212BF98B00E38E32 /* CateRunLoop */,
 				BD7FDEEC212BF98B00E38E32 /* CateRuntime */,
@@ -125,6 +165,7 @@
 		BD7FDEEB212BF98B00E38E32 /* CateGCD */ = {
 			isa = PBXGroup;
 			children = (
+				BD7F6279215B56B70025B32A /* Demo-GCDProgress */,
 			);
 			path = CateGCD;
 			sourceTree = "<group>";
@@ -177,6 +218,25 @@
 				BDB5423B2149319F00D8AB26 /* CRTMessageSendController.m */,
 			);
 			path = "Demo-messageSend";
+			sourceTree = "<group>";
+		};
+		BDCFD0552152555B006259B2 /* CateRetainCycle */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD056215256A1006259B2 /* Demo-BlockCircularReference */,
+			);
+			path = CateRetainCycle;
+			sourceTree = "<group>";
+		};
+		BDCFD056215256A1006259B2 /* Demo-BlockCircularReference */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD057215257DF006259B2 /* CCRBlockCircularReferenceController.h */,
+				BDCFD058215257DF006259B2 /* CCRBlockCircularReferenceController.m */,
+				BDCFD05A21525A12006259B2 /* CCRBlockCircularReferenceController2.h */,
+				BDCFD05B21525A12006259B2 /* CCRBlockCircularReferenceController2.m */,
+			);
+			path = "Demo-BlockCircularReference";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,10 +340,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7FDEFE212BFB9E00E38E32 /* SMRBaseDemoController.m in Sources */,
+				BD19004321953A63007244CE /* CMCopyDeepController.m in Sources */,
 				BD7FDECC212BF92E00E38E32 /* ViewController.m in Sources */,
 				BD7FDED7212BF93200E38E32 /* main.m in Sources */,
+				BDCFD059215257DF006259B2 /* CCRBlockCircularReferenceController.m in Sources */,
 				BDB5423C2149319F00D8AB26 /* CRTMessageSendController.m in Sources */,
 				BD7FDEFB212BFB8100E38E32 /* CUISetNeedsLayoutViewController.m in Sources */,
+				BD7F627C215B56D30025B32A /* CGCDController.m in Sources */,
+				BDCFD05C21525A12006259B2 /* CCRBlockCircularReferenceController2.m in Sources */,
 				BD7FDEC9212BF92E00E38E32 /* AppDelegate.m in Sources */,
 				BD7FDEF7212BFAD300E38E32 /* SMRCateManager.m in Sources */,
 			);
